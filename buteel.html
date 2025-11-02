@@ -1,0 +1,110 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Бидний бүтээл</title>
+
+    <!-- Font Awesome CDN холбоос -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Гадны CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./buteel.css" />
+    <link rel="stylesheet" href="blog.css" />
+
+    <!-- JQuery CDN холбоос -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Навигацийн хэсэг -->
+    <nav>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18OiV-HAIq3ULtxK3yWNv9Vgp0a5QL33TlQ&s"
+            class="logo" alt="The Mongolz logo">
+        <h1 style="margin: 10px;">The Mongolz</h1>
+
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Нүүр Хуудас</a></li>
+                <li><a href="buteel.html" class="active">Тоглогчдын тухай</a></li>
+                <li><a href="course-inner.html">Гаргасан амжилт</a></li>
+                <li><a href="contact.html">Тоглолтийн төв</a></li>
+            </ul>
+
+            <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/What%20is%20a%20Hamburger%20Button.png?width=225&name=What%20is%20a%20Hamburger%20Button.pngg"
+                id="menu-btn" alt="" />
+        </div>
+    </nav>
+
+    <section id="experts">
+        <h1>Тоглогчдын тухай</h1>
+        <p>The Mongolz багийн үндсэн бүрэлдэхүүн</p>
+
+        <div class="expert-box">
+
+            <!-- Player 1 -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/fpFRxLo1gokUpVUe08c2da.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=800&s=4152c8afe7b41e240e7652c0b9f496ee" alt="Blitz">
+    <h6>Garidmagnai Byambasuren (Blitz)</h6>
+    <p><strong>Үүрэг:</strong> IGL – багийн стратеги боловсруулах, rotation, bomb plant, tactical move‑уудыг удирдах.</p>
+</div>
+
+<!-- Player 2 -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/Bwqv1Pg1Kng2i_Uec1Dbo7.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C8%2C482%2C482&w=800&s=3b9855b753ac4252cf6624b3935b282e" alt="Techno4k">
+    <h6>Sodbayar Munkhbold (Techno4k)</h6>
+    <p><strong>Үүрэг:</strong> Rifler – front-line тулалдаанд оролцож, map control-ийг эзэлдэг. Багийн гол довтолгооны хүч (main firepower).</p>
+</div>
+
+<!-- Player 3 -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/n-ZLurXgrZxPVAADroVVQX.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=800&s=86d86122666e3a64be0ccc8f5f331bb9" alt="Mzinho">
+    <h6>Ayush Batbold (Mzinho)</h6>
+    <p><strong>Үүрэг:</strong> Rifler / Support – дайралтанд оролцохын зэрэгцээ teammates-ийг smoke, flash, utility ашиглан дэмжих.</p>
+</div>
+
+<!-- Player 4 -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/k2gSyjwVhBTXPxn5DP0OuT.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C8%2C471%2C471&w=800&s=e0c7441977ffd4e69735e15dd971a4b9" alt="910">
+    <h6>Usukhbayar Banzragch (910)</h6>
+    <p><strong>Үүрэг:</strong> AWPer – long-range байрлалд суудаг, урт шугамаас эсрэг багийн гишүүдийг алдаг. Багийн хамгаалалтыг хянаж, тоглолтыг шийддэг.</p>
+</div>
+
+<!-- Player 5 / Coach -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/zliZlNJMKhRZbcQdr1Mz0b.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=121%2C0%2C467%2C467&w=800&s=372698c7fd591cafa3754a1967ab87bc" alt="maaRaa">
+    <h6>Erdenedalai Bayanbat (maaRaa)</h6>
+    <p><strong>Үүрэг:</strong> Coach – тэмцээн дээр багийн стратеги, тактик, шийдвэрийг хянаж зөвлөмж өгдөг. Practice – дасгал, map-ийн тактик, aim болон utility дадлагыг удирдан багийн гишүүдийг бэлтгэдэг.</p>
+</div>
+
+<!-- Player 6 / Sub player -->
+<div class="profile">
+    <img src="https://img-cdn.hltv.org/playerbodyshot/kvdn29qCPgSQmgCfdB-l7-.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=117%2C8%2C467%2C467&w=800&s=9f030bb6533a739f505011639c207d24" alt="Senzu">
+    <h6>Azbayar Munkhbold (Senzu)</h6>
+    <p><strong>Үүрэг:</strong> Sub / Flexible – шаардлагын дагуу front-line эсвэл sniper үүрэг гүйцэтгэх боломжтой.</p>
+	<h5>The Mongolz багийн сэлгээний тоглогч.</h5>
+</div>
+
+    </section>
+
+    <script>
+        // Менюг харуулах
+        $("#menu-btn").click(function () {
+            $("nav .navigation ul").addClass("active");
+        });
+
+        // Менюг хаах
+        $("#menu-close").click(function () {
+            $("nav .navigation ul").removeClass("active");
+        });
+    </script>
+</body>
+
+</html>
