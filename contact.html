@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Тоглолтын төв</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./contact.css">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation start -->
+  <nav>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR18OiV-HAIq3ULtxK3yWNv9Vgp0a5QL33TlQ&s" class="logo" alt="The Mongolz logo">
+    <h1>The Mongolz</h1>
+
+    <div class="navigation">
+      <ul>
+        <i id="menu-close" class="fas fa-times"></i>
+        <li><a href="index.html">Нүүр Хуудас</a></li>
+        <li><a href="buteel.html">Тоглогчдын тухай</a></li>
+        <li><a href="course-inner.html">Гаргасан амжилт</a></li>
+        <li><a href="contact.html" class="active">Тоглолтын төв</a></li>
+      </ul>
+
+      <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/What%20is%20a%20Hamburger%20Button.png?width=225&name=What%20is%20a%20Hamburger%20Button.png" id="menu-btn" alt="menu icon" />
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section id="about-home">
+    <h2>Тоглолтын төв</h2>
+  </section>
+
+  <!-- Match center -->
+  <section id="matches">
+    <div class="matches-container"></div>
+  </section>
+
+  <!-- JS -->
+  <script src="contact.js"></script>
+  <script>
+    $("#menu-btn").click(function () {
+      $("nav .navigation ul").addClass("active");
+    });
+    $("#menu-close").click(function () {
+      $("nav .navigation ul").removeClass("active");
+    });
+  </script>
+</body>
+</html>
