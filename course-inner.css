@@ -77,8 +77,6 @@ nav .navigation ul li a {
 nav .navigation ul li a.active,
 nav .navigation ul li a:hover {
 	color: #5f38fd;
-	background: #f0b400;
-	color: #000;
 }
 
 /* iPad болон утсан дээр гарч ирэх */
@@ -218,6 +216,10 @@ nav .navigation ul li a:hover {
 		grid-template-columns: 1fr;
 	}
 }
+
+/*---------------------------------------------------------*/
+/*-------------------- Ipad screen styling ----------------*/
+/*---------------------------------------------------------*/
 @media screen and (max-width: 789px)
 {
 	nav
@@ -387,25 +389,4 @@ nav .navigation ul li a:hover {
 	width: 30px;
 	height: 30px;
 	margin-top: 30px;
-}
-nav .navigation ul li a {
-  text-decoration: none;
-  color: black;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 10px 25px;
-  border-radius: 10px;
-  display: inline-block;
-  transition: 0.3s;
-  font-weight: 500;
-}
-
-nav .navigation ul li a:hover {
-  background: #f0b400;
-  color: #000;
-}
-#menu-btn {
-  display: none;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
 }
