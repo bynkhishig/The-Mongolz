@@ -1,0 +1,81 @@
+/* --- Matches Section --- */
+#matches {
+  padding: 6vw;
+  /* background: linear-gradient(135deg, #0d1b2a, #1b263b); */
+}
+
+.matches-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.match-card {
+  background: linear-gradient(135deg, #1f4068, #27496d);
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.match-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+.match-info h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.match-info .teams {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.team-name {
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.team1 { background: #3949ab; color: #fff; }
+.team2 { background: #ef5350; color: #fff; }
+
+.match-info .date-time {
+  font-size: 0.9rem;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.result.upcoming { background: #ffb74d; color: #000; padding: 5px 10px; border-radius: 6px; font-weight: 600;}
+.result.win { background: #66bb6a; color: #fff; padding: 5px 10px; border-radius: 6px; font-weight: 600;}
+.result.lose { background: #ef5350; color: #fff; padding: 5px 10px; border-radius: 6px; font-weight: 600;}
+
+.team-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.team-logos img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-logos img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 15px #fff;
+}
